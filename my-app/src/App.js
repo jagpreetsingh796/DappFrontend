@@ -7,6 +7,13 @@ import Withdraw from './Withdraw'
 import CheckBanksBalance from './CheckBanksBalance'
 
 function App() {
+  componentWillMount()
+  {
+    const db = firebase.firestore();
+  }
+  render()
+  {
+
   return (
     <div className="App">
       <OpenAccount/>
