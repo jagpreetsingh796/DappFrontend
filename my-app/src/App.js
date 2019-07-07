@@ -5,8 +5,11 @@ import OpenAccount from './OpenAccount'
 import CheckBalance from './CheckBalance'
 import Withdraw from './Withdraw'
 import CheckBanksBalance from './CheckBanksBalance'
+import firebase from './Firestore'
 
-function App() {
+
+
+class App extends  React.Component{
   componentWillMount()
   {
     const db = firebase.firestore();
@@ -27,5 +30,5 @@ function App() {
     </div>
   );
 }
-
+}
 export default App;
