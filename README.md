@@ -1,5 +1,5 @@
 # DappFrontend
-ist of functions
+List of functions
 
 function openAccount(string memory _name,uint _age,string memory _region,string memory _typeofAccount)public payable
 
@@ -30,5 +30,7 @@ I was not able to host the backend after plenty of efforts so my backend is runn
 In order to handle the CORS issue I have used this extension https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi as you may face this issue while running the Dapp
 
 My frontend url is https://dapp1-25cb4.firebaseapp.com/
+
+Database url-https://console.firebase.google.com/u/0/project/dappdatabase/database/firestore/data~2FBalances~2F3aKJtAIB8JSiUjhYvsDH
 
 Name Kirpal Singh Jagpreet Singh Gurudatta Naveen Bathal
